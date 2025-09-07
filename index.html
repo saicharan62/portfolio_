@@ -283,7 +283,7 @@ window.addEventListener("load", function() {
     thankYou.style.display = "block";
     setTimeout(() => {
       thankYou.style.display = "none";
-      history.replaceState(null, null, " ");
+      history.replaceState(null, null, " "); // clears the #thankyou from URL without reload
     }, 5000);
   }
 });
